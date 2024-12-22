@@ -1,7 +1,6 @@
 //Bot Created By KPPAIN
-//LEGENDARY KING
-//☠️KNOW PAIN☠️
-Fuck you if you don't give me creadit
+//KNOW PAIN☠️
+//Vortex 
 
 const {
 default: makeWASocket,
@@ -24,7 +23,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['09117525115']
+const ownerNumber = ['+2349117525115']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -34,7 +33,7 @@ const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
 fs.writeFile(__dirname + '/auth_info_baileys/creds.json', data, () => {
-console.log("Vortex Session downloaded ✅")
+console.log("☠️KNOW PAIN ☠️ Session downloaded ✅")
 })})}
 
 const express = require("express");
@@ -64,7 +63,7 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 connectToWA()
 }
 } else if (connection === 'open') {
-console.log('vortex 😼 Installing... ')
+console.log('☠️KNOW PAIN ☠️6 Installing... ')
 const path = require('path');
 fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
@@ -173,7 +172,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("RAFTIZY , bot started✅");
+res.send("PAIN, bot started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
