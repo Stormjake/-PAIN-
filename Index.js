@@ -1,6 +1,7 @@
-//Bot Created By KPPAIN
-//KNOW PAIN☠️
-//Vortex 
+//bot created By mcgamecoder
+//The Thief king👑 
+//VORTEX-MD Brain 🧠 
+//Fuck you If you don't give credit 
 
 const {
 default: makeWASocket,
