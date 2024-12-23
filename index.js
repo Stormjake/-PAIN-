@@ -64,7 +64,7 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 connectToWA()
 }
 } else if (connection === 'open') {
-console.log('☠️KNOW PAIN ☠️6 Installing... ')
+console.log('PAIN 6 Installing... ')
 const path = require('path');
 fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
@@ -74,7 +74,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `☠️KNOW PAIN☠️ connected successful ✅\n\nPREFIX: ${prefix}`;
+let up = `PAIN connected successful ✅\n\nPREFIX: ${prefix}`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url https://i.ibb.co/zxPtLwb/FB-IMG-17328242694165669.jpg" alt="FB-IMG-17328242694165669),caption: up})
 
